@@ -12,8 +12,8 @@ from sklearn.preprocessing import LabelEncoder
 # -------------------------
 ROOT = Path(__file__).resolve().parents[1]  # project root
 DATA_PATH = ROOT / "data" / "churn-bigml-80.csv"
-MODEL_PATH = ROOT / "models" / "best_churn_model.pkl"
-SCALER_PATH = ROOT / "models" / "churn_scaler.pkl"
+MODEL_PATH = ROOT / "models" / "best_churn_model_modified.pkl"
+SCALER_PATH = ROOT / "models" / "churn_scaler_modified.pkl"
 
 # -------------------------
 # Utility functions
