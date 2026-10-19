@@ -2,6 +2,8 @@
 
 An end-to-end machine learning project that predicts whether a telecom customer will churn (leave the service). It uses a scikit-learn **Pipeline** (preprocessing + **Random Forest**), tunes the model with **RandomizedSearchCV**, and serves predictions through a **Streamlit** web app.
 
+**Live app:** <https://customer-churn-prediction-ml-model-abhi.streamlit.app> (Streamlit Community Cloud; may take a minute to wake up). Tested after the 19 Oct 2026 retrain: the app loads the new pipeline and returns a prediction with a churn probability.
+
 ---
 
 ## 🎯 Business problem
