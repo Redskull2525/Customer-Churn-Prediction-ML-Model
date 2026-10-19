@@ -57,6 +57,12 @@ Confusion matrix: `[[570, 2], [37, 58]]`. Of the 95 customers who actually churn
 
 ---
 
+## 🎓 Interview guide
+
+[`docs/INTERVIEW_GUIDE.md`](docs/INTERVIEW_GUIDE.md) is a beginner-friendly walkthrough of this project: metrics explained, the evaluation bug fixes, likely interview questions and hands-on exercises.
+
+---
+
 ## 📂 Project structure
 
 ```
@@ -70,6 +76,7 @@ Confusion matrix: `[[570, 2], [37, 58]]`. Of the 95 customers who actually churn
 │   ├── feature_cols.pkl, num_cols.pkl, cat_cols.pkl
 │   └── feature_names_after_ohe.pkl
 ├── notebook/Customer_Churn_Prediction_System_Modified_Final.ipynb
+├── docs/INTERVIEW_GUIDE.md    # study guide
 └── requirements.txt
 ```
 
